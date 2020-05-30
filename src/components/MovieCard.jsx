@@ -7,7 +7,7 @@ export default function MovieCard({ title, poster_path, release_date, vote_avera
  return (
   <div className="card_list--item">
       <h3 className="">{title}</h3>
-      <img className="card_list--image" src={`${config.baseMovieUrl}/${poster_path}`} alt={title} />
+      <img className="card_list--image" src={`${config.baseImageUrl}/${poster_path}`} alt={title} />
       <p className=""><small>{release_date}</small></p>
       <p className=""><small>{vote_average}</small></p>
       <p className=""><small>{overview}</small></p>
