@@ -19,4 +19,3 @@
 ## Todos
 - localStorage
 - pagination
-- truncate text
