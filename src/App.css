@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /* base styles */
 
 html {
@@ -11,7 +13,7 @@ html {
 }
 
 body {
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Roboto', sans-serif;;
      line-height:1.2;
      font-weight: 100;
      font-size: 1.7rem;
@@ -20,7 +22,7 @@ body {
 }
 
 small {
-   font-size: 1.3rem;
+   font-size: 1.4rem;
 }
 
 /* --end -base-styles-- */
@@ -103,14 +105,14 @@ small {
    width: 100%;
    margin: 0 auto;
    display: flex;
-   flex-flow: wrap column;
+   flex-flow: wrap row;
 }
 
 .card_list--item {
    background: #fff;
    border: 1px solid #ddd;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   margin-bottom: 20px;
+   margin: 0 20px 20px 20px;
    padding: 20px;
    max-width: 400px;
    width: 100%;
@@ -125,6 +127,13 @@ small {
    margin: 2.5px 0px;
 }
 
-.card_list--vote_average {
-   color: #383737;
+.card_list--release-date {
+   color: #333;
+   font-weight: 300;
 }
+
+.card_list--vote_average {
+   color: #222121;
+   font-weight: bold;
+}
+
