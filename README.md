@@ -15,3 +15,8 @@
    yarn start
 
 ```
+
+## Todos
+- localStorage
+- pagination
+- truncate text
