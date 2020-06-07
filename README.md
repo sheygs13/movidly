@@ -1,5 +1,5 @@
 # Movie-finder
-![movies](img/movies.jpg)
+![movies](__screenshot__/movies.jpg)
 
 ## Requirements
 ```shell
