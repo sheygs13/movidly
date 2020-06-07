@@ -1,5 +1,7 @@
 # Movie-finder
+![movies](img/movies.jpg)
 
+## Requirements
 ```shell
 
    # Clone the repository
