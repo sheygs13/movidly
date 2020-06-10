@@ -11,9 +11,10 @@ function Search() {
 
   const searchMovies = async e => {
     e.preventDefault();
-    setLoading(true); 
+    
     try { 
       if (query) {
+        setLoading(true); 
         const response = await axios.get(`${config.baseUrl}?api_key=${config.getKey()}&query=${query}&page=1&include_adult=false`);
         const { results } = response.data;
         setMovies(results);

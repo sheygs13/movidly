@@ -11,7 +11,7 @@ export default function Form({ handleSearch, query, handleChange }) {
                name="query"
                value={query}
                onChange={handleChange}
-               placeholder="movie search..."
+               placeholder="search..."
              />
              <button type="submit">Search</button>
        </form>
