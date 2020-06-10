@@ -7,19 +7,25 @@ import axios from 'axios';
 function Search() {
   const [query, setQuery] = useState('');
   const [movies, setMovies] = useState([]);  
+  const [loading, setLoading] = useState(false);
 
   const searchMovies = async e => {
     e.preventDefault();
-    try {    
-      const response = await axios.get(`${config.baseUrl}?api_key=${config.getKey()}&query=${query}&page=1&include_adult=false`);
-      const { results } = response.data;
-      setMovies(results);
-      setQuery("");
+    setLoading(true); 
+    try { 
+      if (query) {
+        const response = await axios.get(`${config.baseUrl}?api_key=${config.getKey()}&query=${query}&page=1&include_adult=false`);
+        const { results } = response.data;
+        setMovies(results);
+        setLoading(false);
+        setQuery("");      
+      }
     } catch({ message }) {
        console.error(message);
     }
+   
   }
- 
+
  const handleChange = e => setQuery(e.target.value);
 
  return (
@@ -28,7 +34,7 @@ function Search() {
             query={query} 
             handleChange={handleChange}
       />
-      <MovieCardList movies={movies}/>
+      <MovieCardList movies={movies} loading={loading}/>
     </>
  )
 }
