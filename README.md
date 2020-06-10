@@ -23,6 +23,6 @@ Get API key [here](https://developers.themoviedb.org/3/getting-started)
    yarn install
 
    # set env && Run your app
-   set/export __REACT_APP_API_KEY__=VALUE && yarn start
+   export REACT_APP_API_KEY=VALUE && yarn start
 
 ```
