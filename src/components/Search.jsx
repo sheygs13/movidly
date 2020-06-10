@@ -24,7 +24,6 @@ function Search() {
     } catch({ message }) {
        console.error(message);
     }
-   
   }
 
  const handleChange = e => setQuery(e.target.value);
