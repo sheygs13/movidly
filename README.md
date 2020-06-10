@@ -1,9 +1,9 @@
 # Movie-finder
 
-![movies](__screenshot__/screenshot_1.jpg)
-![movies](__screenshot__/screenshot_2.jpg)
-![movies](__screenshot__/screenshot_4.jpg)
-![movies](__screenshot__/screenshot_3.jpg)
+![imageOne](__screenshot__/screenshot_1.jpeg)
+![imageTwo](__screenshot__/screenshot_2.jpeg)
+![imageThree](__screenshot__/screenshot_4.jpeg)
+![imageFour](__screenshot__/screenshot_3.jpeg)
 
 ## API KEY
 
