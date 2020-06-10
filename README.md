@@ -7,7 +7,7 @@
 
 ## API KEY
 
-[THE-MOVIE-DB-API](https://developers.themoviedb.org/3/getting-started)
+Get API key [here](https://developers.themoviedb.org/3/getting-started)
 
 ## Requirements
 
