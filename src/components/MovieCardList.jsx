@@ -19,6 +19,8 @@ export default function MovieCardList({movies, loading}) {
                                 movie.poster_path 
                                 && 
                                 movie.release_date
+                                &&
+                                movie.overview
                         )
                         .map(movie => 
                                 <MovieCard 

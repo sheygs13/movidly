@@ -5,7 +5,7 @@
 ![imageThree](__screenshot__/screenshot_4.jpeg)
 ![imageFour](__screenshot__/screenshot_3.jpeg)
 
-## API KEY
+## API Key
 
 Get API key [here](https://developers.themoviedb.org/3/getting-started)
 
