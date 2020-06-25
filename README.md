@@ -5,9 +5,16 @@
 ![imageThree](__screenshot__/screenshot_4.jpeg)
 ![imageFour](__screenshot__/screenshot_3.jpeg)
 
+## Installation
+
+The following are required:
+
+1. [Node/NPM][https://nodejs.org/en/download/]
+2. [React][https://reactjs.org/docs/create-a-new-react-app.html]
+
 ## API Key
 
-Get API key [here](https://developers.themoviedb.org/3/getting-started)
+Obtain API key [here](https://developers.themoviedb.org/3/getting-started)
 
 ## Requirements
 
@@ -15,14 +22,28 @@ Get API key [here](https://developers.themoviedb.org/3/getting-started)
 
    # Clone the repository
    git clone https://github.com/sheygs13/movie-finder.git
-   
+
    # Change directory
    cd movie-finder
-  
+
    # Install dependencies
    yarn install
 
-   # set env && Run your app
-   export REACT_APP_API_KEY=VALUE && yarn start
+   # Set environmental variable
+   export REACT_APP_API_KEY=XXXXXXXX
+
+   # Run your app
+   yarn start
 
 ```
+
+## To Do
+
+- Refactor UI
+- Convert `vote_average` to star icons
+- Pagination
+- Sorting
+
+## Optional
+
+- Filtering
