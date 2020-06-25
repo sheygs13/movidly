@@ -13,7 +13,7 @@ export default function MovieCard({ title, poster_path, release_date, vote_avera
       <p className="card_list--vote_average item"><small>{vote_average ? vote_average : 'No Ratings' }</small></p>
       <p className="card_list--overview item">
           <small>
-              {overview.length > 250 ? truncate(overview) : overview }
+              {overview.length > 100 ? truncate(overview) : overview }
          </small>
      </p>
   </div>

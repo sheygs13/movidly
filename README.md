@@ -9,8 +9,8 @@
 
 The following are required:
 
-1. [Node/NPM][https://nodejs.org/en/download/]
-2. [React][https://reactjs.org/docs/create-a-new-react-app.html]
+1. [Node/NPM](https://nodejs.org/en/download/)
+2. [React](https://reactjs.org/docs/create-a-new-react-app.html)
 
 ## API Key
 
