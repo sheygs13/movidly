@@ -1,9 +1,5 @@
-import React from 'react';
+import React from "react";
 
 export default function Pagination() {
- return (
-  <div style={{display: 'none'}}>
-     Paginate
-  </div>
- )
+  return <div style={{ display: "none" }}>Paginate</div>;
 }
