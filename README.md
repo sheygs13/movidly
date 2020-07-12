@@ -1,4 +1,4 @@
-# Movie-finder
+# Movidly
 
 ![imageOne](__screenshot__/screenshot_1.jpeg)
 ![imageTwo](__screenshot__/screenshot_2.jpeg)
