@@ -1,9 +1,8 @@
 # Movidly
 
-![imageOne](__screenshot__/screenshot_1.jpeg)
-![imageTwo](__screenshot__/screenshot_2.jpeg)
-![imageThree](__screenshot__/screenshot_4.jpeg)
-![imageFour](__screenshot__/screenshot_3.jpeg)
+![imageOne](__screenshot__/screenshot-1.JPG)
+![imageTwo](__screenshot__/screenshot-2.JPG)
+![imageFour](__screenshot__/screenshot-3.JPG)
 
 ## Installation
 
