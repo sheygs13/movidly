@@ -1,9 +1,9 @@
-import React from "react";
-import MovieCard from "./MovieCard";
-import NotFound from "../common/NotFound";
-import Loader from "../common/Loader";
-import Pagination from "../common/Pagination";
-import PropTypes from "prop-types";
+import React from 'react';
+import MovieCard from './MovieCard';
+import NotFound from '../common/NotFound';
+import Loader from '../common/Loader';
+import Pagination from '../common/Pagination';
+import PropTypes from 'prop-types';
 
 export default function MovieCardList({ movies, loading }) {
   return (

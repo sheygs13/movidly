@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import config from "../config/config";
-import { truncate } from "../utils/utils";
+import React from 'react';
+import PropTypes from 'prop-types';
+import config from '../config/config';
+import { truncate } from '../utils/utils';
 
 export default function MovieCard({
   title,
@@ -22,7 +22,7 @@ export default function MovieCard({
         <small>{release_date}</small>
       </p>
       <p className="card_list--vote_average item">
-        <small>{vote_average ? vote_average : "No Ratings"}</small>
+        <small>{vote_average ? vote_average : 'No Ratings'}</small>
       </p>
       <p className="card_list--overview item">
         <small>{overview.length > 100 ? truncate(overview) : overview}</small>

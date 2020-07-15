@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import Form from "./Form";
-import MovieCardList from "./MovieCardList";
-import config from "../config/config";
-import axios from "axios";
+import React, { useState } from 'react';
+import Form from './Form';
+import MovieCardList from './MovieCardList';
+import config from '../config/config';
+import axios from 'axios';
 
 function Search() {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState('');
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -23,7 +23,7 @@ function Search() {
         const { results } = response.data;
         setMovies(results);
         setLoading(false);
-        setQuery("");
+        setQuery('');
       }
     } catch ({ message }) {
       console.error(message);
