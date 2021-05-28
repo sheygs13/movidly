@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^10.4.0",
     "axios": "0.21.1",
     "dotenv": "8.2.0",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "node-forge": "0.10.0",
     "prop-types": "15.7.2",
     "react": "^16.13.1",
